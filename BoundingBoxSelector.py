@@ -368,7 +368,7 @@ class BoundingBoxSelector:
     def deepl_translate(self,input_text):
         import deepl
 
-        auth_key = "467413d0-d22f-42ca-8e13-2e47add01ebe:fx"  # Replace with your key
+        auth_key = ""  # Replace with your key
 
         translator = deepl.Translator(auth_key)
         
